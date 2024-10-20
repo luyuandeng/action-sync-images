@@ -40,4 +40,4 @@ jobs:
         skopeo copy --all docker://registry.k8s.io/kube-proxy:v1.27.4 docker://docker.io/lydeng/kube-proxy:v1.27.4
         skopeo copy --all docker://registry.k8s.io/pause:3.9 docker://docker.io/lydeng/pause:3.9
         skopeo copy --all docker://registry.k8s.io/etcd:3.5.7-0 docker://docker.io/lydeng/etcd:3.5.7-0
-        skopeo copy --all docker://registry.k8s.io/coredns/coredns:v1.10.1 docker://docker.io/lydeng/coredns:v1.10.1
+ 
